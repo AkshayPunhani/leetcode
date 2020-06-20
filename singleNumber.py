@@ -16,13 +16,10 @@ class Solution(object):
             if v ==1:
                 return k
 
-        # Below is a better solution
+        # Below is a better solution using bitwise XOR
 
         # res=0
         # for num in nums:
         #     res = num^res
         #     print(res)
         # return res
-
-
-        
